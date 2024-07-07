@@ -129,6 +129,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	inputs.forEach(el => window.intlTelInput(el, {
 		initialCountry: 'ru',
+		strictMode: true,
 		separateDialCode: true
 	}))
 
