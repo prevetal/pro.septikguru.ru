@@ -1034,6 +1034,7 @@ header .menu_item .btn:hover
     display: block;
 
     width: 1376px;
+    min-height: 200px;
     margin-left: -280px;
 
     pointer-events: none;
