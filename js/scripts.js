@@ -125,20 +125,40 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 	// Phone input
-	$('input[type=tel]').intlTelInput({
+	const inputs = document.querySelectorAll('input[type=tel]')
+
+	inputs.forEach(el => window.intlTelInput(el, {
 		initialCountry: 'ru',
 		separateDialCode: true
-	})
+	}))
 
 
 	// Quiz
 	let currentStep = 1,
 		totalStep = 3
 
+	$('.quiz .step .answers label').click(function(e) {
+		if (e.target.nodeName === 'LABEL') {
+			quizGoToNext()
+		}
+	})
+
 
 	$('.quiz .next_btn').click(function(e) {
 		e.preventDefault()
 
+		quizGoToNext()
+	})
+
+
+	$('.quiz .prev_btn').click(function(e) {
+		e.preventDefault()
+
+		quizGoToPrev()
+	})
+
+
+	function quizGoToNext() {
 		currentStep++
 
 		// Hide step
@@ -160,12 +180,10 @@ document.addEventListener('DOMContentLoaded', function () {
 			// Progress
 			$('.quiz .head .progress .bar').css('width', 100 / totalStep * currentStep + '%')
 		}
-	})
+	}
 
 
-	$('.quiz .prev_btn').click(function(e) {
-		e.preventDefault()
-
+	function quizGoToPrev() {
 		currentStep = currentStep - 1
 
 		// Hide step
@@ -182,7 +200,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		currentStep > 1
 			? $('.quiz .btns .prev_btn').fadeIn(300)
 			: $('.quiz .btns .prev_btn').fadeOut(200)
-	})
+	}
 })
 
 

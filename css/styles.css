@@ -874,9 +874,6 @@ header .menu_item .btn:hover
 }
 
 
-
-
-
 .form .iti
 {
     font-size: var(--font_size);
@@ -885,15 +882,9 @@ header .menu_item .btn:hover
 }
 
 
-.form .iti__flag-container
+.form .iti__country-container
 {
     padding: 0;
-}
-
-
-.form .iti__selected-flag
-{
-    padding: 0 8px 0 19px;
 }
 
 
@@ -911,11 +902,10 @@ header .menu_item .btn:hover
 .form .iti--show-selected-dial-code input.iti__tel-input[type=text]
 {
     padding-right: 19px;
-    padding-left: 63px;
 }
 
 
-.form .iti--allow-dropdown .iti__flag-container:hover .iti__selected-flag
+.iti--allow-dropdown .iti__country-container:not(:has(+ input[disabled])):not(:has(+ input[readonly])) .iti__selected-country-primary:hover, .iti--allow-dropdown .iti__country-container:not(:has(+ input[disabled])):not(:has(+ input[readonly])) .iti__selected-country:has(+ .iti__dropdown-content:hover) .iti__selected-country-primary
 {
     background: none;
 }
@@ -1810,6 +1800,12 @@ header .menu_item .btn:hover
     border-style: solid;
     border-color: #2a80bc;
     border-radius: 60px;
+}
+
+
+.quiz .step .answers label > *
+{
+    pointer-events: none;
 }
 
 
