@@ -1,0 +1,140 @@
+.swiper-button-next,
+.swiper-button-prev
+{
+    top: auto;
+    bottom: 0;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 50px;
+    height: 50px;
+    margin: 0;
+
+    transform: none;
+
+    color: #fff;
+    border-radius: 50%;
+    background-image: linear-gradient(0turn, rgba(42, 128, 188, 1) 0%, rgba(39, 72, 147, 1) 100%);
+}
+
+
+.swiper-button-prev
+{
+    left: 50%;
+
+    margin-left: 108px;
+}
+
+.swiper-button-next
+{
+    right: auto;
+    left: 50%;
+
+    margin-left: 308px;
+}
+
+
+.swiper-button-next:after,
+.swiper-button-prev:after
+{
+    position: absolute;
+
+    display: block;
+
+    width: calc(100% - 8px);
+    height: calc(100% - 8px);
+    margin: auto;
+
+    content: '';
+
+    border: 1px solid;
+    border-radius: 50%;
+
+    inset: 0;
+}
+
+
+.swiper-button-next img,
+.swiper-button-prev img
+{
+    display: block;
+
+    width: 24px;
+    height: 14px;
+}
+
+.swiper-button-next img
+{
+    transform: rotate(180deg);
+}
+
+
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet
+{
+    margin: 0;
+}
+
+
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction
+{
+    position: absolute;
+    bottom: -33px;
+    left: 0;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 100%;
+    height: 11px;
+
+    pointer-events: none;
+}
+
+
+.swiper-pagination-bullet
+{
+    display: block;
+
+    width: 11px;
+    height: 11px;
+
+    transition: .2s linear;
+    pointer-events: auto;
+
+    opacity: 1;
+    border: 2px solid #0098ff;
+    border-radius: 50%;
+    background: #0098ff;
+}
+
+.swiper-pagination-bullet + .swiper-pagination-bullet
+{
+    margin-left: 11px !important;
+}
+
+
+.swiper-pagination-bullet:hover,
+.swiper-pagination-bullet.active
+{
+    border-color: #0098ff;
+    background: #fff;
+}
+
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet
+{
+    margin: 0;
+}

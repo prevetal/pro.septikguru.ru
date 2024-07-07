@@ -1,0 +1,459 @@
+@media print,
+(max-width: 1699px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 40px;
+    }
+
+
+    .cont
+    {
+        padding: 0 100px;
+    }
+
+
+    .swiper-button-prev
+    {
+        margin-left: 68px;
+    }
+
+
+    .swiper-button-next
+    {
+        margin-left: 268px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .slogan
+    {
+        line-height: 21px;
+
+        margin-left: 20px;
+    }
+
+
+    header .work_time .time
+    {
+        margin-top: 8px;
+    }
+
+
+    header .phone
+    {
+        margin-left: 40px;
+    }
+
+
+    header .phone a
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        width: 232px;
+    }
+
+
+    header .callback_btn
+    {
+        font-size: 16px;
+
+        width: 232px;
+        margin-left: 12px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 232px;
+        padding-bottom: 100px;
+    }
+
+
+    .first_section ul
+    {
+        width: 400px;
+        max-width: 100%;
+    }
+
+
+    .first_section .man
+    {
+        margin-left: 68px;
+    }
+
+
+    .first_section .bg1
+    {
+        left: -148px;
+    }
+
+
+    .first_section .bg2
+    {
+        bottom: -188px;
+
+        width: 1240px;
+        margin-left: -308px;
+    }
+
+
+    .first_section .bg3
+    {
+        top: auto;
+        right: -48px;
+        bottom: 0;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .without ul li,
+    .about_info .with ul li
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .about_info .btn
+    {
+        width: 392px;
+    }
+
+
+
+    /*----------
+        Quiz
+    ----------*/
+    .quiz .form
+    {
+        min-height: 677px;
+    }
+
+
+    .quiz .head
+    {
+        padding: 40px 68px;
+    }
+
+
+    .quiz .head .title
+    {
+        width: 588px;
+        max-width: 100%;
+    }
+
+
+    .quiz .step
+    {
+        width: 732px;
+        padding-left: 68px;
+    }
+
+
+    .quiz .step1 .image
+    {
+        width: 344px;
+    }
+
+
+    .quiz .step2 .image,
+    .quiz .step3 .image
+    {
+        width: 314px;
+    }
+
+
+    .quiz .btns
+    {
+        width: 732px;
+        margin-top: 40px;
+        padding-left: 68px;
+    }
+
+
+    .quiz .person
+    {
+        right: 32px;
+
+        width: 380px;
+    }
+
+
+    .quiz .person:before,
+    .quiz .person:after
+    {
+        transform: translateX(-50%) scale(.9);
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block .data
+    {
+        padding: 60px 68px;
+    }
+
+
+    .action_block .data .title
+    {
+        line-height: calc(100% + 8px);
+
+        width: 432px;
+        max-width: 100%;
+        margin-bottom: 24px;
+    }
+
+
+    .action_block .data ol li
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    .action_block .data .btn
+    {
+        width: 420px;
+    }
+
+
+    .action_block .data .person
+    {
+        right: 48px;
+
+        width: 400px;
+    }
+
+
+    .action_block .data .person:before,
+    .action_block .data .person:after
+    {
+        transform: translateX(-50%) scale(.9);
+    }
+
+
+    .action_block .data .person .info
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        bottom: 60px;
+
+        width: 268px;
+        margin-left: -24px;
+    }
+
+
+    .action_block .bg4
+    {
+        right: -48px;
+    }
+
+
+
+    .action_block .telegram
+    {
+        justify-content: space-between;
+
+        padding: 24px 68px;
+    }
+
+
+    .action_block .telegram .title
+    {
+        width: 568px;
+        max-width: 100%;
+    }
+
+
+    .action_block .telegram .link
+    {
+        margin-left: auto;
+        padding-right: 48px;
+    }
+
+
+
+    /*---------------
+        Solutions
+    ---------------*/
+    .solutions .solution .data
+    {
+        width: calc(50% - 24px);
+        padding: 67px 67px 39px 39px;
+    }
+
+    .solutions .solution .data.min_p
+    {
+        padding: 39px;
+    }
+
+
+    .solutions .solution .name
+    {
+        left: 40px;
+    }
+
+
+    .solutions .solution .desc
+    {
+        font-size: 16px;
+        line-height: 26px;
+
+        width: 408px;
+    }
+
+
+    .solutions .solution ul
+    {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+    .solutions .solution ul li + li
+    {
+        margin-top: 8px;
+    }
+
+
+    .solutions .advantages
+    {
+        padding: 32px 68px;
+    }
+
+
+
+    /*------------
+        Videos
+    ------------*/
+    .videos .video .features
+    {
+        margin-left: 0;
+    }
+
+
+    .videos .video .features > *.small,
+    .videos .video .features > *.middle,
+    .videos .video .features > *.big
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .videos .btn
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*-------------------
+        Youtube block
+    -------------------*/
+    .youtube_block .block_head .link
+    {
+        margin-left: 68px;
+    }
+
+
+    .youtube_block .video .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .map
+    {
+        width: calc(100% - 332px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-bottom: 40px;
+    }
+
+
+    footer .slogan
+    {
+        line-height: 21px;
+
+        margin-left: 20px;
+    }
+
+
+    footer .work_time .time
+    {
+        margin-top: 8px;
+    }
+
+
+    footer .phone
+    {
+        margin-left: 40px;
+    }
+
+
+    footer .phone a
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        width: 232px;
+    }
+
+
+    footer .callback_btn
+    {
+        font-size: 16px;
+
+        width: 232px;
+        margin-left: 12px;
+    }
+
+
+    footer .links
+    {
+        font-size: 16px;
+    }
+}

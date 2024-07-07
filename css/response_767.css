@@ -1,0 +1,571 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 28px;
+    }
+
+
+    .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .swiper-button-prev
+    {
+        margin-left: 24px;
+    }
+
+    .swiper-button-next
+    {
+        margin-left: 180px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .top
+    {
+        padding: 20px 0;
+    }
+
+
+    header .bottom
+    {
+        display: none;
+    }
+
+
+    header .logo img
+    {
+        width: 40px;
+        height: 59px;
+    }
+
+
+    header .phone,
+    header .callback_btn
+    {
+        display: none;
+    }
+
+
+    header .mob_menu_btn
+    {
+        display: flex;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 160px;
+        padding-bottom: 400px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: var(--font_size_title);
+    }
+
+
+    .first_section .title strong
+    {
+        display: inline;
+    }
+
+
+    .first_section .btn
+    {
+        width: 100%;
+    }
+
+
+    .first_section .man
+    {
+        right: auto;
+        left: 50%;
+
+        width: 300px;
+
+        transform: translateX(-50%);
+    }
+
+
+    .first_section .man:before,
+    .first_section .man:after
+    {
+        top: 0;
+
+        transform: translateX(-50%) scale(.6);
+    }
+
+    .first_section .man:after
+    {
+        top: -30px;
+    }
+
+
+    .first_section .bg1
+    {
+        width: 168px;
+    }
+
+
+    .first_section .bg2
+    {
+        left: 50%;
+
+        width: 880px;
+
+        transform: translateX(-50%);
+    }
+
+
+    .first_section .bg3
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .row
+    {
+        margin-left: 0;
+    }
+
+
+    .about_info .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*----------
+        Quiz
+    ----------*/
+    .quiz .form
+    {
+        min-height: 0;
+        padding-bottom: 420px;
+    }
+
+
+    .quiz .data
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+    }
+
+
+    .quiz .head
+    {
+        padding: 28px 24px;
+    }
+
+
+    .quiz .head .number
+    {
+        font-size: 44px;
+
+        margin-right: 20px;
+    }
+
+
+    .quiz .head .question
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    .quiz .head .title
+    {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+
+    .quiz .head .exp
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    .quiz .step,
+    .quiz .btns
+    {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+
+    .quiz .step .answers
+    {
+        width: 100%;
+    }
+
+
+    .quiz .btns .btn
+    {
+        width: 100%;
+    }
+
+
+    .quiz .person,
+    .quiz.finish .person
+    {
+        right: auto;
+        left: 50%;
+
+        width: 240px;
+
+        transform: translateX(-50%);
+    }
+
+
+    .quiz .person:before,
+    .quiz .person:after,
+    .quiz.finish .person:before,
+    .quiz.finish .person:after
+    {
+        bottom: 60px;
+
+        transform: translateX(-50%) scale(.5);
+    }
+
+    .quiz .person:after,
+    .quiz.finish .person:after
+    {
+        bottom: 33px;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block .data
+    {
+        padding: 40px 32px 480px;
+    }
+
+
+    .action_block .data ol li
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+    .action_block .data ol li + li
+    {
+        margin-top: 16px;
+    }
+
+
+    .action_block .data .btn
+    {
+        font-size: 16px;
+
+        width: 100%;
+        height: 56px;
+    }
+
+
+    .action_block .data .person
+    {
+        right: auto;
+        left: 50%;
+
+        width: 292px;
+        margin-left: 32px;
+
+        transform: translateX(-50%);
+    }
+
+
+    .action_block .data .person:before,
+    .action_block .data .person:after
+    {
+        transform: translateX(-50%) scale(.6);
+    }
+
+
+    .action_block .bg4
+    {
+        top: auto;
+        right: -40px;
+        bottom: 420px;
+
+        width: 120px;
+    }
+
+
+    .action_block .telegram
+    {
+        padding: 32px;
+    }
+
+
+    .action_block .telegram .title
+    {
+        font-size: 20px;
+    }
+
+
+    .action_block .telegram .link
+    {
+        font-size: 18px;
+
+        width: 100%;
+        padding: 4px 24px 4px 4px;
+    }
+
+
+    .action_block .telegram .link .icon
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+    .action_block .telegram .link span
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    /*---------------
+        Solutions
+    ---------------*/
+    .solutions .solution .data
+    {
+        width: calc(100% - 24px);
+        padding: 47px 47px 47px 27px;
+    }
+
+    .solutions .solution .data.min_p
+    {
+        padding: 31px 47px 47px 27px;
+    }
+
+
+    .solutions .solution .name
+    {
+        font-size: 18px;
+
+        top: -25px;
+        left: 24px;
+
+        width: 240px;
+        height: 48px;
+    }
+
+
+    .solutions .solution .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+    .solutions .solution ul
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+    .solutions .solution ul li:before
+    {
+        top: 4px;
+    }
+
+
+    .solutions .thumbs
+    {
+        right: -8px;
+    }
+
+
+
+    .solutions .advantages
+    {
+        padding: 28px;
+    }
+
+
+    .solutions .advantages .item
+    {
+        font-size: 18px;
+        line-height: 24px;
+
+        width: 100%;
+    }
+
+
+    .solutions .advantages .item + .item
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*-------------------
+        Youtube block
+    -------------------*/
+    .youtube_block
+    {
+        padding: 48px 0 60px;
+
+        border-radius: 48px 48px 0 0;
+    }
+
+
+    .youtube_block .block_head .title img
+    {
+        height: 49px;
+    }
+
+
+    .youtube_block .block_head .link
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding-bottom: 60px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .logo img
+    {
+        width: 40px;
+        height: 59px;
+    }
+
+
+    footer .slogan
+    {
+        width: 272px;
+    }
+
+
+    footer .work_time
+    {
+        display: block;
+
+        width: 100%;
+        margin-top: 32px;
+        padding-top: 32px;
+
+        border-top: 1px solid #ececec;
+    }
+
+
+    footer .phone,
+    footer .callback_btn
+    {
+        width: calc(50% - 8px);
+        margin-top: 32px;
+        margin-left: 0;
+    }
+
+
+    footer .phone a
+    {
+        width: 100%;
+    }
+
+
+    footer .callback_btn
+    {
+        margin-left: auto;
+    }
+
+
+
+    footer .menu
+    {
+        justify-content: space-between;
+
+        width: 100%;
+    }
+
+
+    footer .menu_item + .menu_item
+    {
+        margin-left: 0;
+    }
+
+
+    footer .menu_item .btn
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 440px;
+        padding: 48px 32px 40px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 26px;
+    }
+}

@@ -1,0 +1,421 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 32px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .swiper-button-prev
+    {
+        margin-left: 4px;
+    }
+
+
+    .swiper-button-next
+    {
+        margin-left: 180px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .work_time
+    {
+        display: none;
+    }
+
+
+    header .menu_btn
+    {
+        margin-right: 48px;
+    }
+
+
+    header .menu_item + .menu_item
+    {
+        margin-left: 48px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .title
+    {
+        font-size: 36px;
+    }
+
+
+    .first_section .man
+    {
+        margin-left: 0;
+    }
+
+
+    .first_section .bg2
+    {
+        bottom: -180px;
+
+        width: 1160px;
+        margin-left: -160px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        position: relative;
+    }
+
+
+    .about_info .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .about_info .without ul,
+    .about_info .with ul
+    {
+        padding: 23px;
+    }
+
+
+    .about_info .image
+    {
+        width: 100%;
+        padding-bottom: 50%;
+    }
+
+
+    .about_info .btn
+    {
+        position: absolute;
+        z-index: 5;
+        bottom: 24px;
+        left: 72px;
+
+        width: 320px;
+        margin: 0;
+    }
+
+
+
+    /*----------
+        Quiz
+    ----------*/
+    .quiz .data
+    {
+        padding: 30px 10px 10px;
+    }
+
+
+    .quiz .form
+    {
+        min-height: 754px;
+    }
+
+
+    .quiz .head .title
+    {
+        width: 444px;
+    }
+
+
+    .quiz .head .exp
+    {
+        line-height: 19px;
+
+        width: 400px;
+    }
+
+
+    .quiz .step,
+    .quiz .btns
+    {
+        width: 480px;
+    }
+
+
+    .quiz .step .answers label
+    {
+        font-size: 16px;
+
+        height: 55px;
+    }
+
+
+    .quiz .btns .btn
+    {
+        width: 180px;
+    }
+
+
+    .quiz .step1 .image,
+    .quiz .step2 .image,
+    .quiz .step3 .image
+    {
+        display: none;
+    }
+
+
+    .quiz .step4 .fields
+    {
+        width: 100%;
+    }
+
+
+    .quiz .step4 .fields .label
+    {
+        line-height: 21px;
+    }
+
+
+    .quiz .step4 .you_get
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+    .quiz .step4 .you_get .items
+    {
+        display: flex;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+
+    .quiz .step4 .you_get .items > *
+    {
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+    .quiz .step4 .you_get .items > * + *
+    {
+        margin-top: 0;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block .data ol
+    {
+        width: 528px;
+        max-width: 100%;
+    }
+
+
+    .action_block .data ol li
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .action_block .data .person
+    {
+        right: -24px;
+
+        width: 332px;
+    }
+
+
+    .action_block .data .person:before,
+    .action_block .data .person:after
+    {
+        transform: translateX(-50%) scale(.75);
+    }
+
+
+    .action_block .telegram
+    {
+        padding: 24px 40px;
+    }
+
+
+    .action_block .telegram .title b
+    {
+        display: block;
+
+        width: 440px;
+        max-width: 100%;
+    }
+
+
+    .action_block .telegram .link
+    {
+        padding-right: 40px;
+    }
+
+
+    .action_block .bg4
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Solutions
+    ---------------*/
+    .solutions .solution .image
+    {
+        width: 400px;
+        height: 350px;
+    }
+
+
+    .solutions .solution .data
+    {
+        width: calc(100% - 428px);
+        min-height: 360px;
+    }
+
+
+    .solutions .thumbs
+    {
+        box-shadow: none;
+    }
+
+
+    .solutions .thumbs > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+    .solutions .advantages
+    {
+        padding: 24px 40px;
+    }
+
+
+    .solutions .advantages .item
+    {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+
+
+    /*------------
+        Videos
+    ------------*/
+    .videos .video .name
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+    .videos .video .features
+    {
+        font-size: 14px;
+    }
+
+
+    .videos .video .features > *
+    {
+        line-height: normal;
+    }
+
+
+
+    /*-------------------
+        Youtube block
+    -------------------*/
+    .youtube_block .block_head .title img
+    {
+        height: 72px;
+    }
+
+
+    .youtube_block .video .name
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .bottom
+    {
+        margin-top: 32px;
+    }
+
+
+    footer .bottom .row
+    {
+        padding-top: 32px;
+    }
+
+
+    footer .work_time
+    {
+        display: none;
+    }
+
+
+    footer .menu_btn
+    {
+        margin-right: 48px;
+    }
+
+
+    footer .menu_item + .menu_item
+    {
+        margin-left: 48px;
+    }
+}

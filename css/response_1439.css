@@ -1,0 +1,316 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 36px;
+    }
+
+
+    .cont
+    {
+        padding: 0 48px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .callback_btn
+    {
+        width: 212px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 224px;
+        padding-bottom: 80px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 40px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 18px;
+        line-height: 28px;
+
+        margin-top: 32px;
+    }
+
+
+    .first_section ul li + li
+    {
+        margin-top: 12px;
+    }
+
+
+    .first_section .btn
+    {
+        font-size: 20px;
+
+        width: 440px;
+        height: 64px;
+    }
+
+
+    .first_section .bg1
+    {
+        left: -140px;
+
+        width: 180px;
+    }
+
+
+    .first_section .bg2
+    {
+        bottom: -200px;
+
+        width: 1220px;
+        margin-left: -320px;
+    }
+
+
+    .first_section .bg3
+    {
+        right: -24px;
+
+        width: 124px;
+    }
+
+
+    .first_section .man
+    {
+        margin-left: 40px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .without .title,
+    .about_info .with .title
+    {
+        font-size: 17px;
+    }
+
+
+    .about_info .without ul,
+    .about_info .with ul
+    {
+        padding: 19px;
+    }
+
+
+    .about_info .without ul li,
+    .about_info .with ul li
+    {
+        font-size: var(--font_size);
+        line-height: 21px;
+    }
+
+
+    .about_info .btn
+    {
+        width: 380px;
+    }
+
+
+
+    /*----------
+        Quiz
+    ----------*/
+    .quiz .head
+    {
+        padding: 40px 48px;
+    }
+
+
+    .quiz .head .progress
+    {
+        bottom: 116px;
+    }
+
+
+    .quiz .step,
+    .quiz .btns
+    {
+        width: 700px;
+        padding-left: 48px;
+    }
+
+
+    .quiz .step4 .you_get .items > *
+    {
+        font-size: 16px;
+    }
+
+
+    .quiz .person
+    {
+        right: 24px;
+
+        width: 368px;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block .data
+    {
+        padding: 56px 60px;
+    }
+
+
+    .action_block .data .btn
+    {
+        font-size: 20px;
+        line-height: 28px;
+
+        width: 400px;
+        height: 64px;
+    }
+
+
+    .action_block .data .person
+    {
+        right: 24px;
+
+        width: 392px;
+    }
+
+
+    .action_block .telegram
+    {
+        padding: 24px 60px;
+    }
+
+
+    .action_block .telegram .title
+    {
+        line-height: 28px;
+    }
+
+
+    .action_block .bg4
+    {
+        right: -32px;
+    }
+
+
+
+    /*---------------
+        Solutions
+    ---------------*/
+    .solutions .advantages
+    {
+        padding: 28px 60px;
+    }
+
+
+
+    /*------------
+        Videos
+    ------------*/
+    .videos .video .name
+    {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+
+    .videos .video .features > *
+    {
+        padding: 8px;
+    }
+
+
+    .videos .btn
+    {
+        width: 440px;
+    }
+
+
+
+    /*-------------------
+        Youtube block
+    -------------------*/
+    .youtube_block .block_head .title img
+    {
+        height: 84px;
+    }
+
+
+    .youtube_block .video .name
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data a
+    {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+
+    .contacts_info .map
+    {
+        width: calc(100% - 300px);
+    }
+
+
+    .contacts_info .map iframe
+    {
+        height: 440px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .callback_btn
+    {
+        width: 212px;
+    }
+
+
+
+    footer .links
+    {
+        font-size: var(--font_size);
+        line-height: 25px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal_title
+    {
+        font-size: 32px;
+    }
+}

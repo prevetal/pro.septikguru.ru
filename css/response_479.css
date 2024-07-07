@@ -1,0 +1,255 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 26px;
+    }
+
+
+    .cont
+    {
+        padding: 0 16px;
+    }
+
+
+    .swiper-button-next
+    {
+        right: 0;
+        left: auto;
+
+        margin-right: 24px;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .slogan
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .agree
+    {
+        font-size: 13px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 148px;
+    }
+
+
+    .first_section ul li br
+    {
+        display: none;
+    }
+
+
+    .first_section .bg1
+    {
+        display: none;
+    }
+
+
+
+    /*----------
+        Quiz
+    ----------*/
+    .quiz .data
+    {
+        width: calc(100% + 32px);
+        margin-right: -16px;
+        margin-left: -16px;
+    }
+
+
+    .quiz .head .progress
+    {
+        bottom: 114px;
+    }
+
+
+    .quiz .head .exp
+    {
+        color: currentColor;
+        border-radius: 0;
+        background: none;
+    }
+
+
+    .quiz .head .exp .icon
+    {
+        border-color: currentColor;
+    }
+
+
+    .quiz .head .exp .icon img
+    {
+        -webkit-filter: invert(0%);
+                filter: invert(0%);
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block .data
+    {
+        padding: 36px 24px 440px;
+
+        border-radius: 24px;
+    }
+
+
+    .action_block .data .bg,
+    .action_block .data:before
+    {
+        border-radius: 24px;
+    }
+
+
+    .action_block .data ol li
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .action_block .data .person
+    {
+        width: 272px;
+    }
+
+
+    .action_block .data .person:before,
+    .action_block .data .person:after
+    {
+        transform: translateX(-50%) scale(.55);
+    }
+
+
+    .action_block .telegram
+    {
+        padding: 28px 24px;
+
+        border-radius: 24px;
+    }
+
+
+    .action_block .telegram .title
+    {
+        font-size: 18px;
+    }
+
+
+    .action_block .telegram .link
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*---------------
+        Solutions
+    ---------------*/
+    .solutions .solution .data
+    {
+        width: 100%;
+        min-height: 0;
+        padding: 47px 23px;
+    }
+
+
+    .solutions .solution .data.min_p
+    {
+        padding: 23px 23px 47px;
+    }
+
+
+    .solutions .thumbs
+    {
+        display: none;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .phone,
+    footer .callback_btn
+    {
+        width: 100%;
+    }
+
+
+    footer .callback_btn
+    {
+        margin-top: 16px;
+    }
+
+
+    footer .bottom .row
+    {
+        padding: 0;
+
+        border: none;
+    }
+
+
+    footer .menu
+    {
+        display: none;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 440px;
+        padding: 48px 28px 40px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 24px;
+    }
+
+
+    .modal_desc
+    {
+        font-size: 14px;
+    }
+}
